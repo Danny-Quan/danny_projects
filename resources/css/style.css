@@ -1,0 +1,988 @@
+/* religion section styles === national youth leadership style == regional youth leadership styles */
+/* benefits and commitments styles === ministries styles */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:#fff;
+    font-family: 'Roboto', sans-serif;
+}
+p{
+    font-size: 120%;
+    font-weight: 300;
+}
+.nav-btn-full{
+    /* border: 1px solid rgba(22, 199, 22, 0.712);
+    background-color: rgba(22, 199, 22, 0.712); */
+    /* border-radius: 30px; */
+    /* margin: 5px 0; */
+}
+/* .navbar-nav li:last-child a:link,
+.navbar-nav li:last-child a:visited{
+    color: #fff;
+} */
+/* .navbar-nav li:last-child a:hover,
+.navbar-nav li:last-child a:active{
+    border: 1px solid rgba(22, 199, 22, 0.712);
+    background-color: rgba(22, 199, 22, 0.712);
+} */
+.brand_logo img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top: -12px;
+}
+.navbar{
+    padding: 8px 0;
+    border-radius: 0;
+    background-color: #fff;
+    border-bottom: none;
+    border-bottom: 1px solid #ccc;
+    box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.281);
+    margin-bottom: 0;
+    position: relative;
+}
+@media only screen and (min-width:767px){
+    @keyframes pull_up{
+        from{transform:translateY(30px)}
+        to{transform: translateY(0);}
+        }
+        @keyframes opaque{
+            from{opacity: 0;}
+            to{opacity: 1;}
+        }
+        .navbar li:nth-child(2):hover > .mega_nav{
+            display: block;
+            animation-name: pull_up,opaque;
+            animation-duration: 0.5s;
+            animation-timing-function: ease-out;
+        }
+        .mega_nav{
+            position: absolute;
+            z-index: 1;
+            width: 170px;
+            left: -50%;
+            top: 100%;
+            display: none;
+        }
+        .mega_nav .about_nav{
+            background-color: rgb(5, 6, 14);
+            padding: 20px;
+            width: 250px;
+        }
+        .mega_nav .programs_nav{
+            background-color: rgb(5, 6, 14);
+            padding: 20px;
+            width: 190%;
+        }
+        .mega_nav .special_initiatives_nav{
+            background-color: rgb(5, 6, 14);
+            padding: 20px;
+            width: 180%;
+        }
+        .navbar li:nth-child(3):hover > .mega_nav{
+            display: block;
+            animation-name: pull_up,opaque;
+            animation-duration: 0.5s;
+            animation-timing-function: ease-out;
+        }
+        .mega_nav .programs_nav .governance_political_leadership_nav,
+        .mega_nav .programs_nav .business_enterprenuership_nav{
+            background-color: rgb(5, 6, 14);
+            position: absolute;
+            left: -130%;
+            top: 0%;
+            padding: 20px;
+            display: none;
+        }
+        .mega_nav .programs_nav .business_enterprenuership_nav{
+            top: 10%;
+            left: -150%;
+        }
+        .mega_nav .programs_nav li:nth-child(1):hover >.governance_political_leadership_nav{
+            display: block;
+            animation-name: pull_up,opaque;
+            animation-duration: 0.5s;
+            animation-timing-function: ease-out;
+        }
+        .mega_nav .programs_nav li:nth-child(2):hover >.business_enterprenuership_nav{
+            display: block;
+            animation-name: pull_up,opaque;
+            animation-duration: 0.5s;
+            animation-timing-function: ease-out;  
+        }
+        .navbar li:nth-child(4):hover > .mega_nav{
+            display: block;
+            animation-name: pull_up,opaque;
+            animation-duration: 0.5s;
+            animation-timing-function: ease-out;
+        }
+
+}
+.mega_nav .about_nav li,
+.mega_nav .programs_nav li,
+.mega_nav .special_initiatives_nav li{
+    list-style: none;
+    padding: 5px 10px;
+}
+
+.mega_nav .about_nav li a:link,
+.mega_nav .about_nav li a:visited,
+.mega_nav .programs_nav li a:link,
+.mega_nav .programs_nav li a:visited,
+.mega_nav .special_initiatives_nav li a:visited,
+.mega_nav .special_initiatives_nav li a:link{
+    text-decoration: none;
+    color: rgb(224, 177, 19);
+    transition: color 0.3s;
+}
+.mega_nav .about_nav li a:hover,
+.mega_nav .about_nav li a:active,
+.mega_nav .programs_nav li a:hover,
+.mega_nav .programs_nav li a:active,
+.mega_nav .special_initiatives_nav li a:hover,
+.mega_nav .special_initiatives_nav li a:active{
+    color: #ccc;
+}
+
+/* styling for header_social_link */
+.header_credentials i{
+    font-size: 120%;
+}
+.header_social_link li,
+.first_header_social_link li{
+list-style: none;
+display: inline-block;
+padding: 10px;
+}
+.header_social_link li a,
+.first_header_social_link li a{
+    text-decoration: none;
+    color: #fff;
+}
+.first_header_social_link li a {
+    color: rgb(224, 177, 19);
+}
+.after_header{
+    background-color: rgb(24, 21, 21);
+}
+.header_social_link li:nth-child(1) a{
+    color: rgb(59, 89, 152);
+}
+.header_social_link li:nth-child(2) a{
+    color: rgb(195, 42, 163);
+}
+.header_social_link li:nth-child(3) a {
+    color: rgb(29, 161, 242);
+}
+.header_social_link li:nth-child(4) a{
+    color: rgb(255, 0, 0);
+}
+/* section 1 styling */
+
+/********************************/
+h2::after{
+    content: " ";
+    width: 7%;
+    height: 2px;
+    display: block;
+    background-color: rgb(224, 177, 19);
+    margin: 5px auto;
+}
+
+.image_slider .item img{
+    height: 70vh;
+    width: 100%;
+}
+/* section 2 styling */
+.section_2 i,
+.section_5 i{
+    font-size: 300%;
+    text-align: center;
+    color: rgb(224, 177, 19);
+}
+.section_3 .text{
+    margin-top: 8%;
+}
+
+.sec2_sec{
+    text-align: center;
+}
+.section_2 .services_sec{
+    padding: 25px;
+    width: 30%;
+    border: 1px solid #ccc;
+    margin: 10px;
+    box-shadow: 2px 2px 5px rgba(46, 45, 45, 0.644);
+    /* transition: color 0.5s, border-color 0.5s,background-color 0.5s; */
+}
+
+.section_2 .services_sec{
+    /* background-color: rgb(224, 177, 19);
+    color: #fff; */
+    border-color: rgb(224, 177, 19);
+    box-shadow: 0 0  5px rgb(224, 177, 19);
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width:767px) {
+    .section_2 .services_sec{
+        width: 97%;
+        margin-bottom: 40px;
+    }
+.section_4 .p_1,
+.section_4 .p_2,
+.section_4 .p_3,
+.section_4 .p_4{
+    margin-bottom: 40px;
+}
+/* #ourTeam_carousel{
+    width: 100% !important;
+} */
+.section_6{
+    height: 100%;
+}
+
+}
+.section_2,
+.section_3,
+.section_4,
+.section_5,
+.section_6,
+.section_8{
+    margin: 5% 0;
+}
+.section_4 h2,
+.section_8 h2,
+.section_7 h2{
+    margin-bottom: 40px;
+}
+.section_2 .after_sec2_header{
+    margin-bottom: 40px;
+}
+/* section 3 styling */
+.section_3 h2{
+    margin-bottom: 20px;
+}
+.section_3 h2{
+    padding-top: 30px;
+}
+.section_3{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.685),rgba(0, 0, 0, 0.719)),url("img/logo.jpeg");
+    width: 100%;
+    height: 550px;
+    background-attachment: fixed;
+}
+.section_3 .about_text{
+    background-color: rgba(0, 0, 0, 0.856);
+    height: inherit;
+    color:#fff;
+}
+.section_3 .about_text .text a:link,
+.section_3 .about_text .text a:visited{
+    text-decoration: none;
+    color: #fff;
+    background-color: rgb(224, 177, 19);
+    padding: 10px;
+    transition: background-color 0.3s;
+    margin-left: 3%;
+}
+.section_3 .about_text .text a:hover,
+.section_3 .about_text .text a:active{
+    background-color: rgb(153, 120, 13);
+}
+
+.section_3 .about_text p{
+    padding: 10px;
+    padding-bottom: 20px;
+}
+
+.section_3 .about_text .text{
+    margin-left: 2%;
+}
+
+/* section 4 styles */
+.section_4 .p_1,
+.section_4 .p_2,
+.section_4 .p_3,
+.section_4 .p_4{
+    text-align: center;
+    border: 1px solid #ccc; 
+    box-shadow: 2px 2px 5px rgba(59, 59, 59, 0.774);
+    border-color: rgb(224, 177, 19);
+    box-shadow: 0 0  5px rgb(224, 177, 19);
+}
+.section_4 .p{
+    position: relative;
+}
+.section_4 p{
+    padding: 10px;
+    padding-bottom: 20px;
+}
+.section_4 .col img{
+    width: 100%;
+    height: 350px;
+    /* border-radius: 50%; */
+    border: 4px solid rgb(5, 109, 5);
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.section_4 .col .team_social_nav .social_nav li{
+    list-style: none;
+    display: inline-block;
+}
+.section_4 .col .team_social_nav .social_nav li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+}
+.section_4 .col .team_social_nav .social_nav{
+    text-align: center;
+    background: linear-gradient(to right,rgb(236, 20, 56),blue);
+    border-radius: 20px;
+    width: 60%;
+    padding: 5px;
+    position: absolute;
+    top: 88%;
+    left: 20%;
+}
+/* section 4 styling */
+.section_5 iframe{
+    width: 100%;
+    height: 70vh;
+    border: none;
+    border: 1px solid #ccc;
+}
+.section_7 iframe{
+    width: 100%;
+    height: 60vh;
+}
+
+.col_1,
+.col_2,
+.col_3,
+.col_4,
+.col_5{
+    width: 90%;
+}
+.col .p img{
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.section_5 .why_join{
+    margin-top: 5%;
+}
+
+.section_5 .why_join .join_us_text{
+    padding: 25px;
+    width: 30%;
+    border: 1px solid #ccc;
+    margin: 10px;
+    box-shadow: 2px 2px 5px rgba(46, 45, 45, 0.644);
+}
+.section_5 .why_join .join_us_text{
+    border-color: rgb(224, 177, 19);
+    box-shadow: 0 0  5px rgb(224, 177, 19);
+}
+/***************************************************/
+/* swiper.js styles */
+/***************************************************/
+/* html,
+      body {
+        position: relative;
+        height: 100%;
+      } */
+
+      /* body {
+        background: #eee;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color: #000;
+        margin: 0;
+        padding: 0;
+      } */
+
+      /* html,
+      body {
+        position: relative;
+        height: 100%;
+      }
+
+      body {
+        background: #eee;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color: #000;
+        margin: 0;
+        padding: 0;
+      } */
+
+      .swiper-container {
+        width: 100%;
+        height: 100%;
+      }
+
+      .swiper-slide {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+      }
+
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+      }
+
+      @media only screen and (min-width: 769px) {
+        .swiper-slide:first-child {
+          transition: transform 100ms;
+        }
+
+        .swiper-slide:first-child img {
+          transition: box-shadow 500ms;
+        }
+
+        .swiper-slide.swiper-slide-active:first-child {
+          transform: translateX(50%);
+          z-index: 2;
+        }
+
+        .swiper-slide.swiper-slide-active:first-child img {
+          box-shadow: 0px 32px 80px rgba(0, 0, 0, 0.35);
+        }
+
+        .swiper-slide:nth-child(2) {
+          transition: transform 100ms;
+        }
+
+        .swiper-slide.swiper-slide-next:nth-child(2) {
+          transform: translateX(55%);
+          z-index: 1;
+        }
+
+        .swiper-container[dir="rtl"]
+          .swiper-slide.swiper-slide-active:first-child {
+          transform: translateX(-50%);
+        }
+
+        .swiper-container[dir="rtl"]
+          .swiper-slide.swiper-slide-next:nth-child(2) {
+          transform: translateX(-55%);
+        }
+      }
+/***************************************************/
+/* swiper.js styles */
+/***************************************************/
+/* section 5 styling */
+.section_5 p{
+    padding: 20px 0;
+}
+.section_6{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.973),rgba(0, 0, 0, 0.959)),url("img/logo.jpeg");
+    width: 100%;
+    height: 100%;
+    background-attachment: fixed;
+}
+.section_6 .number{
+    text-align: center;
+    font-size: 300%;
+    font-weight: 700;
+    font-family:cursive;
+    color: rgb(224, 177, 19);
+}
+.section_6 p{
+    text-align: center;
+    font-weight: 500;
+    color: #fff;
+}
+.section_6 .info{
+    margin-top: 15%;
+    margin-bottom: 15%;
+}
+/********************************/
+/* section 8 */
+.section_8 .swiper-slide{
+   
+}
+.section_8 .swiper-slide img{
+width: 90%;
+height: 300px;
+}
+.section_8 a{
+    text-decoration: none;
+    color: #fff;
+    background-color: rgb(224, 177, 19);
+    padding: 10px;
+}
+
+/***************************************/
+/* contact page styles */
+
+.contact_bg_header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.767),rgba(0, 0, 0, 0.74)),url("img/bg_11.jpg");
+    height: 50vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 5%;
+}
+.about_bg_header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.767),rgba(0, 0, 0, 0.74)),url("img/bg_12.jpg");
+    height: 50vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 5%;
+}
+.gallery_bg_header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.767),rgba(0, 0, 0, 0.74)),url("img/bg_3.jpg");
+    height: 50vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 5%;
+}
+.mission_vission_bg_header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.767),rgba(0, 0, 0, 0.74)),url("img/bg_8.jpg");
+    height: 50vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 5%;
+}
+.contact_bg_header h1,
+.about_bg_header h1,
+.gallery_bg_header h1,
+.mission_vission_bg_header h1,
+.ymc_header_bg h1,
+.ymp_header_bg h1,
+.ydm_header_bg h1{
+    color: #fff;
+    margin-top: 0;
+    padding-top: 10%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.contact_form_sec input,
+.contact_form_sec textarea{
+    border:none;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    box-shadow: none;
+}
+.contact_page_section{
+    margin-bottom: 5%;
+}
+.contact_form_sec input[type="submit"]{
+    width: 25%;
+    padding: 10px;
+    background-color: rgb(224, 177, 19);
+    color: #fff;
+    border: rgb(224, 177, 19);
+}
+.contact_info i{
+    font-size: 190%;
+    background-color: rgb(224, 177, 19);
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+/**********************/
+/* about section styles */
+.about_section,
+.mission_and_vission_section{
+    margin-bottom: 5%;
+}
+.mission h3,
+.vission h3{
+    color: rgb(224, 177, 19);
+}
+.about_section h3,
+.mission_and_vission_section h3{
+    color: rgb(224, 177, 19); 
+    margin-top: 40px;
+}
+.about_section .mission,
+.about_section .vission{
+    margin-top: 40px;
+}
+/************************/
+/* gallery section style */
+.gallery_sec img{
+    width: 100%;
+    margin-top: 20px;
+    cursor: pointer;
+    margin-bottom: 5%;
+}
+.gallery_sec{
+    margin-bottom: 5%;
+}
+.gallery_sec h3{
+    color: rgb(224, 177, 19);
+    margin-top: 5%;
+}
+/*********************************/
+/* footer styling */
+
+footer{
+    background-color: rgb(5, 6, 14);
+    padding-top: 5%;
+    padding-bottom: 10%;
+    position: relative;
+    color: #fff;
+}
+footer div{
+font-size: 17px;
+font-weight: 300;
+}
+footer h3{
+    color:#fff;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-bottom: 2px solid rgb(224, 177, 19);
+    margin-bottom: 30px;
+}
+.copyright_info{
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    padding: 15px;
+    font-size: 110%;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+footer .footer_whatsapp li{
+list-style: none;
+}
+footer .footer_whatsapp li a:link,
+footer .footer_whatsapp li a:visited{
+text-decoration: none;
+color: rgb(0, 128, 64);
+font-size: 18px;
+}
+
+footer .footer_links li,
+footer .footer_links_2 li{
+    list-style: none;
+    padding: 5px;
+}
+footer .footer_links li a:link,
+footer .footer_links li a:visited{
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s;
+}
+
+footer .footer_links li a:hover,
+footer .footer_links li a:active{
+    color: #333;
+}
+
+footer .footer_links_2 li{
+    display: inline-block;
+}
+footer .footer_links_2 li a:link,
+footer .footer_links_2 li a:visited{
+    color: #000;
+    text-decoration: none;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 18px;
+    display: block;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    align-items: center;
+}
+footer .footer_links_2 li:nth-child(1) a{
+    color: rgb(59, 89, 152);
+}
+footer .footer_links_2 li:nth-child(2) a{
+    color: rgb(29, 161, 242);
+}
+
+footer .footer_links_2 li:nth-child(3) a{
+    color: rgb(195, 42, 163);
+}
+footer .footer_links_2 li:nth-child(4) a{
+    color: rgb(255, 0, 0);
+}
+
+footer .f-col{
+    margin-bottom: 20px;
+}
+footer .f-col:last-child{
+    margin-bottom: 110px;
+}
+.copyright_info .dev_name{
+    color: rgb(224, 177, 19);
+}
+
+/**************************/
+/* styling for programs */
+.ymc_header_bg{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.877),rgba(0, 0, 0, 0.836)),url("img/bg_2.jpg");
+    width: 100%;
+    height: 50vh;
+    background-position: center;
+    background-size: cover;
+}
+.ymp_header_bg{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.877),rgba(0, 0, 0, 0.836)),url("img/bg_6.jpg");
+    width: 100%;
+    height: 50vh;
+    background-position: center;
+    background-size: cover;
+}
+.ydm_header_bg{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.877),rgba(0, 0, 0, 0.836)),url("img/bg_1.jpg");
+    width: 100%;
+    height: 50vh;
+    background-position: center;
+    background-size: cover;
+}
+.setup_enterprenuership_header_bg{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.877),rgba(0, 0, 0, 0.836)),url("img/bg_9.jpg");
+    width: 100%;
+    height: 50vh;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 50px;
+}
+.business_plan_header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.877),rgba(0, 0, 0, 0.836)),url("img/bg_5.jpg");
+    width: 100%;
+    height: 50vh;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 50px;
+}
+.media_and_communication_header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.877),rgba(0, 0, 0, 0.836)),url("img/bg_11.jpg");
+    width: 100%;
+    height: 50vh;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 50px;
+}
+.religion_header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.877),rgba(0, 0, 0, 0.836)),url("img/bg_4.jpg");
+    width: 100%;
+    height: 50vh;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 50px;
+}
+.ministry_header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.877),rgba(0, 0, 0, 0.836)),url("img/bg_2.jpg");
+    width: 100%;
+    height: 50vh;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 50px;
+}
+.education_header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.877),rgba(0, 0, 0, 0.836)),url("img/bg_1.jpg");
+    width: 100%;
+    height: 50vh;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 50px;
+}
+.arts_and_entertainment_header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.877),rgba(0, 0, 0, 0.836)),url("img/c_13.jpg");
+    width: 100%;
+    height: 50vh;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 50px;
+}
+.ymc_section h1,
+.ymp_section h1,
+.ydm_section h1{
+color: #fff;
+}
+.setup_enterprenuership_section h1,
+.business_plan_section h1,
+.media_and_communication_section h1,
+.religion_section h1,
+.ministry_section h1,
+.education_section h1,
+.arts_and_entertainment_section h1{
+    color: #fff;
+    margin-top: 0;
+    padding-top: 10%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.ymc_section h3,
+.ymp_section h3,
+.ydm_section h3{
+    color: rgb(224, 177, 19); 
+    margin-top: 40px;
+}
+.ydm_header_bg,
+.ymp_header_bg,
+.ymc_header_bg{
+    margin-bottom: 50px;
+}
+.ymc_section,
+.ydm_section,
+.ymp_section,
+.setup_enterprenuership_section,
+.business_plan_section,
+.media_and_communication_section,
+.religion_section,
+.ministry_section,
+.education_section,
+.arts_and_entertainment_section{
+    margin-bottom: 50px;
+}
+.ymp_section .register_btn,
+.ymc_section .register_btn{
+text-decoration: none;
+background-color: rgb(224, 177, 19);
+padding: 10px;
+color: #fff;
+} 
+.ymp_section .register,
+.ymc_section .register{
+    margin-top: 30px;
+}
+.religion_section h3,
+.ministry_section h3{
+    color: rgb(224, 177, 19);
+    padding: 20px 0;
+}
+.religion_section a{
+    padding: 10px;
+    text-decoration: none;
+    background-color: rgb(224, 177, 19);
+    color: #fff;
+}
+.whatsApp_btn a{
+    display: block;
+    list-style: none;
+    text-decoration: none;
+    font-size: 300%;
+    color: rgb(0, 128, 58);
+    background-color: #fff;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    border: 2px solid rgb(224, 177, 19);
+    border-radius: 50%;
+}
+.whatsApp_btn{
+    position: fixed;
+    top: 70%;
+    right: 1%;
+    z-index: 9999;
+}
+/************************/
+/* our team page images */
+.our_team_page img{
+    width: 100%;
+    height: 320px;
+}
+.our_team_page h4{
+    color:rgb(224, 177, 19);
+}
+.our_team_page p{
+    margin-bottom: 50px;
+}
+.our_team_page h2{
+    padding: 20px 0;
+}
+/******************************************/
+/******************************************/
+/******************************************/
+/* media queries */
+/******************************************/
+/******************************************/
+/******************************************/
+@media only screen and (max-width:767px){
+    .contact_bg_header h1,
+.about_bg_header h1,
+.gallery_bg_header h1,
+.mission_vission_bg_header h1,
+.ymc_section h1,
+.ymp_section h1,
+.ydm_section h1,
+.ministry_section h1,
+.religion_section h1,
+.education_section h1,
+.business_plan_section h1,
+.setup_enterprenuership_section h1,
+.media_and_communication_section h1,
+.arts_and_entertainment_section h1{
+    padding-top: 28%;
+}
+
+.section_4 .col .team_social_nav .social_nav{
+    top: 78%;
+}
+.section_2 .services_sec{
+    margin-right: 10px;  
+   }
+   .contact_form_sec{
+       margin-top: 10%;
+       margin-bottom: 10%;
+   }
+   .section_5 .why_join .join_us_text{
+    width: 97%;
+    margin-bottom: 40px;
+    margin-right: 10px;
+   }
+
+   /****************/
+   /* mega nav */
+   .mega_nav .about_nav,
+   .mega_nav .programs_nav,
+   .mega_nav .special_initiatives_nav{
+    max-height: 0;
+    opacity: 0;
+    transition: max-height 0.5s, opacity 0.5s;
+}
+
+.mega_nav .programs_nav .business_enterprenuership_nav,
+.mega_nav .programs_nav .governance_political_leadership_nav{
+    max-height: 0px;
+    opacity: 0;
+    display: none;
+    transition: max-height 0.5s, opacity 0.5s;
+}
+
+.navbar li:nth-child(2):hover > .mega_nav .about_nav{
+max-height: 250px;
+opacity: 1;
+}
+.navbar li:nth-child(3):hover > .mega_nav .programs_nav{
+    max-height: 300px;
+    opacity: 1;
+    }
+    .navbar li:nth-child(4):hover > .mega_nav .special_initiatives_nav{
+        max-height: 250px;
+        opacity: 1;
+        }
+        .mega_nav .programs_nav li:nth-child(1):hover >.governance_political_leadership_nav{
+            max-height: 250px;
+            opacity: 1;
+            display: block;
+        }
+        .mega_nav .programs_nav li:nth-child(2):hover >.business_enterprenuership_nav{
+            max-height: 150px;
+            opacity: 1;
+            display: block;
+        }
+
+} 
