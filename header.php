@@ -13,7 +13,7 @@
 <ul class="nav navbar-nav navbar-right">
     <li><a href="index.php" class="text-capitalize">home</a></li>
     <li>
-        <a href="" class="text-capitalize" id="aboutNav">About YEC &nbsp;<span class="glyphicon glyphicon-chevron-down pull-right"><span></a>
+        <h5 class="text-capitalize" style="padding:8px; 10px" id="aboutNav">About YEC &nbsp;<span class="glyphicon glyphicon-chevron-down pull-right"><span></h5>
         <div class="mega_nav">
         <ul class="about_nav">
 <li><a href="about_us.php">About Us</a></li>
@@ -26,11 +26,11 @@
         </div>
     </li>
 <li>
-    <a href="#" class="text-capitalize" >Programs &nbsp;<span class="glyphicon glyphicon-chevron-down pull-right"><span></a>
+    <h5 class="text-capitalize" style="padding:8px 10px;" >Programs &nbsp;<span class="glyphicon glyphicon-chevron-down pull-right"><span></h5>
 <div class="mega_nav">
     <ul class="programs_nav">
         <li>
-            <a href="#">Governance and Political Leadership &nbsp;<span class="glyphicon glyphicon-chevron-down pull-right"><span></a>
+            <h5 style="color:rgb(224, 177, 19);">Governance and Political Leadership &nbsp;<span class="glyphicon glyphicon-chevron-down pull-right"><span></h5>
             <ul class="governance_political_leadership_nav">
         <li><a href="youth_model_parliament.php">Youth Model Parliament (YMP)</a></li>
         <li><a href="youth_model_cabinet.php">Youth Model Cabinet (YMC)</a></li>
@@ -38,7 +38,7 @@
     </ul>
         </li>
         <li>
-            <a href="#">Business and Enterprenuership &nbsp;<span class="glyphicon glyphicon-chevron-down pull-right"><span></a>
+            <h5 class="" style="color:rgb(224, 177, 19);">Business and Enterprenuership &nbsp;<span class="glyphicon glyphicon-chevron-down pull-right"><span></h5>
         <ul class="business_enterprenuership_nav">
 <li><a href="setup_enterprenuership_challenge.php">Set Up Enterprenuership challenge</a></li>
 <li><a href="business_plan_development.php">Business Plan Development Clinics</a></li>
@@ -53,7 +53,7 @@
 </div>
 </li>
 <li class="">
-    <a href="" class="text-capitalize">special initiatives &nbsp;<span class="glyphicon glyphicon-chevron-down"><span></a>
+    <h5 class="text-capitalize" style="padding:8px 10px;">special initiatives &nbsp;<span class="glyphicon glyphicon-chevron-down"><span></h5>
     <div class="mega_nav">
     <ul class="special_initiatives_nav">
 <li><a href="regional_youth_leadership.php">Regional Youth Leader's Sumit</a></li>
