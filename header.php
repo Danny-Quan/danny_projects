@@ -19,7 +19,7 @@
 <li><a href="about_us.php">About Us</a></li>
 <li><a href="welcome_remark.php">General Secretary's welcome Remark</a></li>
 <li><a href="mission&vission.php">Visson & Mission</a></li>
-<li><a href="Benefits_commitment.php">Membership Benefits</a></li>
+<li><a href="benefits_commitment.php">Membership Benefits</a></li>
 <li><a href="gallery.php">Our Gallery</a></li>
 <li><a href="our_team.php">Our Team</a></li>
 </ul>
