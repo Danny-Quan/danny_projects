@@ -230,7 +230,7 @@ h2::after{
 
 @media only screen and (max-width:767px) {
     .section_2 .services_sec{
-        width: 97%;
+        width: 100%;
         margin-bottom: 40px;
     }
 .section_4 .p_1,
@@ -490,7 +490,7 @@ h2::after{
 }
 .section_6 .number{
     text-align: center;
-    font-size: 300%;
+    font-size: 250%;
     font-weight: 700;
     font-family:cursive;
     color: rgb(224, 177, 19);
@@ -666,8 +666,14 @@ list-style: none;
 footer .footer_whatsapp li a:link,
 footer .footer_whatsapp li a:visited{
 text-decoration: none;
-color: rgb(0, 128, 64);
+color: #fff;
 font-size: 18px;
+padding: 10px;
+background-color: rgb(0, 128, 64);
+border-radius: 10px;
+}
+.footer_whatsapp{
+    margin-top: 15px;
 }
 
 footer .footer_links li,
@@ -932,20 +938,21 @@ color: #fff;
     top: 78%;
 }
 .section_2 .services_sec{
-    margin-right: 10px;  
+    margin: 40px auto; 
    }
    .contact_form_sec{
        margin-top: 10%;
        margin-bottom: 10%;
    }
    .section_5 .why_join .join_us_text{
-    width: 97%;
-    margin-bottom: 40px;
-    margin-right: 10px;
+    width: 100%;
+    margin: 40px auto;
    }
 
    /****************/
    /* mega nav */
+
+
    .mega_nav .about_nav,
    .mega_nav .programs_nav,
    .mega_nav .special_initiatives_nav{
