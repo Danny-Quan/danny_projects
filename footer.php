@@ -23,8 +23,8 @@ YEC Seeks to bridge the gab , provide impactful platforms for practice and train
 
             <div class="col-sm-3 f-col">
             <h3>Contact us</h3>
-        <div>+233207633555</div>
-        <div>companyName@gmail.com</div>
+        <div>+233207633555</div><br>
+        <div>companyName@gmail.com</div><br>
         <div>26 Nii Osae Ntiful Avenue, Base Camp Initiatives, East Legon. Accra-Ghana</div>
         <ul class="footer_whatsapp">
             <li><a href="https://wa.me/message/WVRMA5IBPIQND1" ><i class="fab fa-whatsapp"></i>&nbsp;WhatsApp</a></li>
