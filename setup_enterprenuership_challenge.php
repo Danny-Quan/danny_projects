@@ -25,7 +25,7 @@ include_once("header.php");
     </div>
     <div class="container">
         <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum laborum, incidunt expedita excepturi iure necessitatibus maxime tenetur quasi inventore, architecto cumque perferendis ullam facere! Non id totam harum nesciunt architecto.
+            <h3 class="text-uppercase text-center">Content will be loaded soon</h3> 
 </p>
     </div>
 </section>
