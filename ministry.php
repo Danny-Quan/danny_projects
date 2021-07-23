@@ -24,7 +24,7 @@ include_once("header.php");
         <h1 class="text-uppercase text-center">ministry</h1>
     </div>
     <div class="container">
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque fugit ratione iure nulla quo quaerat dolores et recusandae, alias, voluptatibus eligendi! A enim, neque sapiente beatae saepe esse iste aspernatur!</p>
+        <p><h3 class="text-uppercase text-center">Content will be loaded soon</h3> </p>
     </div>
 </section>
 
