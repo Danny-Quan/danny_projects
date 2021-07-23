@@ -24,7 +24,7 @@ include_once("header.php");
 <h1 class="text-uppercase text-center">business plan and development clinics</h1>
     </div>
     <div class="container">
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae sed, cumque accusamus et vero facere reiciendis quam nihil dolor debitis suscipit, quaerat dolorem laudantium tempore. Doloremque pariatur facilis quos nemo.</p>
+<p><h3 class="text-uppercase text-center">Content will be loaded soon</h3> </p>
     </div>
 </section>
 
