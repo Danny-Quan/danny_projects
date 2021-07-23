@@ -101,12 +101,12 @@ include_once("header.php");
                 <p>Deputy General Secretary - YEC</p>
                 </div>
                 <div class="col-sm-4">
-                    <img src="resources/img/our_team/op_1.jpg" class="img-thumbnail" alt="Miss Esther">
+                    <img src="resources/img/our_team/op_3.jpg" class="img-thumbnail" alt="Miss Esther">
                 <h4>Miss Esther Bents Oforiwaa</h4>
                 <p>Director, Administrator - YEC</p>
                 </div>
                 <div class="col-sm-4">
-                <img src="resources/img/our_team/op_3.jpg" class="img-thumbnail" alt="Hannah Mammudu">
+                <img src="resources/img/our_team/op_1.jpg" class="img-thumbnail" alt="Hannah Mammudu">
                 <h4>Miss Hannah Mammudu</h4>
                 <p>Director-Special Initiatives and Women Led Campaigns</p>
                 </div>
@@ -146,7 +146,7 @@ include_once("header.php");
                 <p>Director for Communicatins</p>
                 </div>
                 <div class="col-sm-4">
-                <img src="resources/img/our_team/op_1.jpg" class="img-thumbnail" alt="none">
+                <img src="resources/img/our_team/logo.jpeg" class="img-thumbnail" alt="none">
                 <h4><br></h4>
                 <p>Chief Relations Officer</p>
                 </div>
