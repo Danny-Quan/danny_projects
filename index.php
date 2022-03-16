@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="vendors/swiper.js/swiper-bundle.min.css"/>
 </head>
 <body>
-    <div class="after_header">
+    <div class="after_header" style="display:none;">
         <div class="container">
 <div class="header_credentials">
     <div class="col-md-8 col-sm-12 text-center">
